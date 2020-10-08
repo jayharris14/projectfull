@@ -1,0 +1,163 @@
+#tooltip.hidden
+{
+    display:none;
+}
+
+#tooltip
+{
+    position:absolute;
+    width:300px;
+    height:auto;
+    padding:10px;
+    background-color:white;
+    border-radius:10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+    pointer-events:none;
+}
+
+.column1of3, .column2of3, .column3of3{
+    width:300px;
+    float:left;
+    margin:10px;
+    background-color:white
+}
+
+.column2of3{
+
+    
+        
+}
+
+
+
+
+
+.title{
+    background-color:white;
+    
+    
+}
+
+.onec{
+    text-indent: 100;
+    margin-top: -80;
+     font-weight:bold;
+}
+
+.twoc{
+    text-indent: 20;
+    margin-top:-40;
+     font-weight:bold
+}
+
+.one{
+    text-indent:100;
+    margin-top:-50;
+    font-weight:bold
+}
+
+.two{
+    text-indent:50;
+    margin-top:-100;
+    font-weight:bold
+}
+
+.three{
+    text-indent:30;
+    margin-top:-15;
+    font-weight:bold
+}
+
+.four{
+    text-indent:70;
+    margin-top:-70;
+    font-weight:bold
+}
+
+.body{
+    background-color:white
+}
+
+.column4of4{margin-top: 45}
+    
+
+.per{font-weight:bold}
+.gdp{font-weight:bold}
+.year{font-weight:bold}
+
+.g{
+    margin-top: 60
+}
+
+.legend1{
+    margin-top:200;
+    margin-right: 300
+   
+}
+.w{
+        list-style-image: url(yellow.jpg);
+    
+            
+}
+.b{
+        list-style-image: url(red.jpg);
+    
+            
+}
+.as{
+        list-style-image: url(blue.png);
+    
+            
+}
+.hi{
+        list-style-image: url(newg.png);
+    
+            
+}
+
+.m{
+        list-style-image: url(brown.png);
+    
+            
+}
+
+.f{
+        list-style-image: url(newpurp.jpg);
+    
+            
+}
+
+.usa         {width:200px;
+            height:400px;
+            background-color:silver;
+            border-style:solid;
+            padding:10px;
+            margin: 30px;
+            overflow:scroll;
+           margin-top: -12.5px;
+            }
+            
+            span
+            {
+                border-style:solid
+            }
+.table3{
+    background-color: burlywood;
+        width:300px;
+        height:300px
+}
+
+.usa, .table3{
+    float: left
+}
+
+.t{
+    background-color: brown
+}
+
+.table4{
+    background-color: burlywood;
+        width:300px;
+        height:300px;
+    margin-top: -120;
+}

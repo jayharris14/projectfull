@@ -1,0 +1,121 @@
+var colors=function(mapdata){
+    console.log("stategdp", mapdata)
+    return mapdata
+}
+
+var drawMap=function(stategdp,target,pathGen, projection)
+
+{ console.log("gdp", stategdp)
+    target.selectAll("path")
+    .data(stategdp)
+    .enter()
+    .append("path")
+    .attr("d",pathGen)
+    .attr("fill", colors)
+}
+
+var makeTranslateString2=function(x,y)
+{
+    return "translate("+x+", "+y+")"
+}
+
+
+
+
+
+var intialgraph2= function(stategdp)
+
+
+
+{
+    var screen2= {width:800, height:600}
+    var margins2=  { left:30, right:20, top:20, bottom:30}
+
+
+var graph2=
+    {
+        width:screen2.width-margins2.left-margins2.right,
+        heigth:screen2.height-margins2.top-margins2.bottom
+    }
+
+    
+ console.log(graph2);
+    console.log(stategdp)
+
+    
+     var moneyScale = d3.scaleSequential()
+     .domain([25,3000])
+   .interpolator(d3.interpolateGreens)
+
+d3.select("#graph2")
+.attr("width", screen2.width)
+.attr("height", screen2.height)
+.attr("fill", "green")
+.attr("stroke", "black")
+
+var target=d3.select("#graph2")
+.append("g")
+.attr("id", "#graph2")
+.attr("transform",
+     "translate("+margins2.left+","+ margins2.top+")");
+
+    var projection=d3.geoAlbersUsa()
+    
+    var pathGen=d3.geoPath()
+                     .projection(projection)
+    
+    
+drawMap(stategdp, target, pathGen, projection, moneyScale);
+
+ Alabama, GDP: 201.98
+Alaska GDP: 54.23
+Arizona,GDP: 321.94
+Arkansas,GDP: 119
+California,GDP: 2780.25
+Colorado,GDP: 352.86
+Conneticuit,GDP: 247.13
+Deleware,GDP: 62.72
+District of clumbia,GDP: 125.51
+Florida,GDP: 947.41
+Georgia,GDP: 537.27
+Hawaii,GDP: 82.19
+Idaho,GDP: 72.39
+Illinois,GDP: 775.85
+Indiana,GDP: 329.13
+Iowa,GDP: 172.96
+Kansas,GDP: 155.97
+Kentucky,GDP: 187.79
+Louisiana,GDP: 237.95
+Maine,GDP: 57.96
+Maryland,GDP: 372.14
+Massachusetts,GDP: 515.85
+Michigan,GDP: 468.7
+Minnesota,GDP: 337.52
+Mississippi,GDP: 103.62
+Missouri,GDP: 289.61
+Montana,GDP: 46.93
+Nebraska,GDP: 115.53
+Nevada,GDP: 152.22
+New hamp,GDP: 77.29
+New jersey,GDP: 558.65
+New mexico,GDP: 97.24
+New york,GDP: 1436.7
+North carolina,GDP: 505.9
+North dakota,GDP: 53.93
+Ohio,GDP: 610.49
+Oklahoma,GDP: 200.28
+Oregon,GDP: 221.67
+Pennsylvania,GDP: 723.05
+Rhode island,GDP: 54.55
+South carolina,GDP: 212.59
+South dakota,GDP: 46.84
+Tennessee,GDP: 328.01
+Texas,GDP: 1800.69
+Utah,GDP: 165.51
+Vermont,GDP: 30.22
+Virginia,GDP: 484.65
+Washington,GDP: 530.82
+West virgina,GDP: 71.34
+Wisconsin,GDP: 303.99
+Wyoming,GDP: 39.11
+    

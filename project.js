@@ -252,6 +252,8 @@ var allper=mper.map(getper)
 
 
 
+
+
 var drawPlot2=function(mper,screen,xScale2,yscale2 )
 {   
 console.log("mper", mper)
@@ -286,6 +288,10 @@ console.log("mper", mper)
         .text("GDP")
       d3.select("#gdp2")
         .text(mper.gdp)
+      d3.select("#state")
+        .text("state")
+       d3.select("#state2")
+        .text(mper.state)
 
         
     })

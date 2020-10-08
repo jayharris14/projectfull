@@ -1,0 +1,124 @@
+.one
+{font-size: 40px;
+color:white;
+margin:50}
+.two{font-size: 40px;
+    color:white;
+margin:50}
+.three{font-size: 40px;
+    color:white;
+margin:50}
+
+.us{width:700px;
+            height:500px;
+            background-color:white;
+            border-style:solid;
+            margin: 120px;
+            margin-top: 0}
+.body{background-color: black}
+.brown{height:130;
+margin-top:;
+margin-left:0}
+.red{height:76.47;
+margin-top: -90;
+margin-left:140}
+.text2{font-weight: bolder;
+margin-top: -1;
+font-size: 14;
+margin-left:40;
+font-style: italic}
+.five{font-weight: bolder;
+margin-top:-6;
+margin-left: 68px}
+.six{font-weight: bolder;
+margin-top:-30px;
+margin-left: 128px;
+font-size: 14;
+font-style: italic}
+.head{text-align: center;
+font-size: 25}
+.per{margin-left:37;
+    margin-top:-75;
+font-weight:bolder;
+    font-size:30;
+}
+.new{margin-top:-1;
+font-weight:bolder;
+text-align: center;
+margin-right:450}
+
+.m, .b{margin-left: 350}
+
+.b{height:114}
+
+.m{height:100;
+    margin-left: 400;
+margin-top:100}
+
+.num{margin-left: 407;
+margin-top:-70;
+font-weight: bolder}
+
+.new2{
+    font-weight:bolder;
+    margin-left: 380;
+    margin-top:-105;}
+    
+text-align: center;
+}
+
+.green{
+    height:60;
+    margin-left: 180
+}
+
+.lil{
+    height: 41.37;
+     margin-left: 430;
+    margin-top: -160;
+        }
+
+.yellow{
+    height:120;
+        margin-left:300;
+            margin-top: -220
+}
+
+.new3{
+    font-weight:bolder;
+    margin-left: 180;
+    margin-top:-100;
+    
+text-align: center;
+}
+
+.num3{margin-left: 350;
+margin-top:-170;
+font-weight: bolder}
+
+.o{width:275px;
+            height:175px;
+            background-color:brown;
+            border-style:solid;
+            padding:10px;
+            margin: 45px;
+            margin-top:120;
+            font-size:20;
+            font-weight:bold}}
+
+.ppp{
+    font-size: 40
+    
+    
+}
+
+.be{width:275px;
+            height:175px;
+            background-color:white;
+            border-style:solid;
+            padding:10px;
+            margin-left: 854px;
+            margin-top:-580;
+            font-size:15;
+            color:black;
+            overflow: scroll}
